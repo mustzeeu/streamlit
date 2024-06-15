@@ -3,6 +3,20 @@ from openai import OpenAI
 import streamlit as st
 import json
 
+st.markdown(
+    """
+    <html>
+    <head>
+    <meta property="og:title" content="ExcuseMate (변명봇)">
+    <meta property="og:description" content="Made by 코딩빼고 다잘함. 설득력 있는 변명으로 실수를 줄이고 나아가서 직장, 학교, 친구등 사회에서 누구나 한번쯤 겪을 수 있는 '변명'을 대신 제작해드립니다.">
+    <meta property="og:image" content="https://example.com/your-app-image.jpg">
+    </head>
+    <body>
+    </body>
+    </html>
+    """
+)
+
 # OpenAI API 키 설정
 os.environ["OPENAI_API_KEY"] = st.secrets['API_KEY']
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
