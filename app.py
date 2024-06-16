@@ -142,7 +142,7 @@ with right_column:
 
     with st.expander("", expanded=True):
         with st.spinner('잠시만 기다려주세요...'):
-            time.sleep(5)
+            time.sleep(3)
             with open(file_path, 'r') as file:
                 inpitbox = file.read()
             st.markdown(inpitbox, unsafe_allow_html=True)
