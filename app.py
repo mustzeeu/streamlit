@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 import streamlit as st
 import json
-
+import time
 
 # OpenAI API 키 설정
 os.environ["OPENAI_API_KEY"] = st.secrets['API_KEY']
