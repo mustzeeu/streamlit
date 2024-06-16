@@ -145,3 +145,19 @@ with right_column:
             inpitbox = file.read()
         st.markdown(inpitbox, unsafe_allow_html=True)
         
+st.markdown(
+    """
+    <html>
+    <head>
+        <title>ExcuseMate (변명봇) - 곤란한 상황을 위한 완벽한 변명 생성기</title>
+        <meta name="description" content="ExcuseMate는 직장, 학교, 친구 관계 등 어떤 상황에서든 완벽한 변명을 만들어주는 변명 생성 도우미입니다. 지금 바로 ExcuseMate를 경험해보세요!">
+        <meta property="og:title" content="ExcuseMate (변명봇) - 곤란한 상황을 위한 완벽한 변명 생성기">
+        <meta property="og:description" content="ExcuseMate는 직장, 학교, 친구 관계 등 어떤 상황에서든 완벽한 변명을 만들어주는 변명 생성 도우미입니다. 지금 바로 ExcuseMate를 경험해보세요!">
+        <meta property="og:image" content="https://example.com/your-app-image.jpg"> 
+    </head>
+    <body>
+    </body>
+    </html>
+    """,
+    unsafe_allow_html=True
+)
