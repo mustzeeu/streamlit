@@ -143,13 +143,5 @@ with right_column:
     with st.expander("", expanded=True):
         with open(file_path, 'r') as file:
             inpitbox = file.read()
-        st.markdown(inpitbox+    """
-    <html>
-    <head>
-    <title>ExcuseMate (변명봇)</title>
-    <meta name="description" content="Made by 코딩빼고 다잘함. 설득력 있는 변명으로 실수를 줄이고 나아가서 직장, 학교, 친구등 사회에서 누구나 한번쯤 겪을 수 있는 '변명'을 대신 제작해드립니다.">
-    </head>
-    <body>
-    </body>
-    </html>
-    """ unsafe_allow_html=True)
+        st.markdown(inpitbox, unsafe_allow_html=True)
+        
