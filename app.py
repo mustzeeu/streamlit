@@ -153,7 +153,7 @@ st.markdown(
         <meta name="description" content="ExcuseMate는 직장, 학교, 친구 관계 등 어떤 상황에서든 완벽한 변명을 만들어주는 변명 생성 도우미입니다. 지금 바로 ExcuseMate를 경험해보세요!">
         <meta property="og:title" content="ExcuseMate (변명봇) - 곤란한 상황을 위한 완벽한 변명 생성기">
         <meta property="og:description" content="ExcuseMate는 직장, 학교, 친구 관계 등 어떤 상황에서든 완벽한 변명을 만들어주는 변명 생성 도우미입니다. 지금 바로 ExcuseMate를 경험해보세요!">
-        <meta property="og:image" content="https://example.com/your-app-image.jpg"> 
+        <meta property="og:image" content="https://excusemate.streamlit.app/~/+/media/b9f59ee7c05883f50edcb6fd89e976f0abb86fa2c799f098b21cac63.png"> 
     </head>
     <body>
     </body>
